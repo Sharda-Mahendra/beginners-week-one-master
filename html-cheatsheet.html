@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HTML Basics</title>
+</head>
+
+<h1>HTML basics</h1>
+
+<body>
+
+<table id="t01">
+ <!--{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+-->
+  <tbody>
+    <tr>
+      <th align="left">item</th>
+      <th align="left">tags</th>
+    </tr>
+    <tr>
+      <td>heading</td>
+      <td>h1 to h6</td>
+    </tr>
+    <tr>
+      <td>paragraph</td>
+      <td>p</td>
+    </tr>
+    <tr>
+      <td>break</td>
+      <td>b</td>
+    </tr>
+    <tr>
+      <td>hyperlink</td>
+      <td>anchor(a)</td>
+    </tr>
+    <tr>
+      <td>image</td>
+      <td>img</td>
+    </tr>
+    <tr>
+      <td>unordered list</td>
+      <td>
+        <ul>
+          <li>ul to create unordered list</li>
+          <li>li to add individual item</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>ordered list</td>
+      <td>
+        <ol>
+          <li>ol to create ordered list</li>
+          <li>li to add individual item</li>
+        </ol>
+      </td>
+      <tr>
+        <td>table</td>
+        <td>
+          <ol>
+            <li>table with table tag and define class as table</li>
+            <li>table body with tbody tag</li>
+            <li>table header with th tag</li>
+            <li>table row with tr tag</li>
+            <li>Cell data with tc tag</li>
+          </ol>
+        </td>
+      </tr>
+    <tr>
+      <td>comment</td>
+      <!--- use for comment -->
+      <td>check using inspect tools</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Example</h1>
+<h4>This is heading</h4>
+<h4>paragraph</h4>
+<p>This is paragraph</p>
+<h4>URL</h4>
+<p><a href="https://www.w3schools.com/html/">HTML Tutorial</a></p>
+<h4>image</h4>
+<img src="./image/duck.jpg" alt="Duck">
+
+
+<style>
+  table#t01 tr:nth-child(even) {
+  background-color: #b3cbe4;
+}
+table#t01 tr:nth-child(odd) {
+  background-color: #5d88bb;
+}
+table#t01 th {
+  color: white;
+  background-color: blue;
+}
+</style>
+
+
+</body>
+</html>

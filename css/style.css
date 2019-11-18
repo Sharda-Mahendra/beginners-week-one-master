@@ -1,0 +1,43 @@
+body{
+    background: green;
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:10px;
+    border: aquamarine solid 30px;
+}
+
+div{
+    min-height: 30vh;
+    margin: solid blue 30px;
+    border: gray solid 20px;
+    padding-top:10mm;;
+}
+
+h1,h2,h3{
+
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1,h2{
+   text-align: center; 
+   font-size: 3em;
+}
+
+h3,h4{
+    font-size: 2em;
+}
+
+img{
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.contrast:hover{
+    background: purple;
+    color: white;
+}
+ol{
+    list-style: square
+}
